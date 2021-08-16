@@ -1,0 +1,130 @@
+body {
+  font-family: Calibri, sans-serif;
+  font-size: 16px;
+  background-color: #CCFF99;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+header{
+  background-color: #009966;
+  color: #FFFFCC;
+  padding: 5px;
+}
+#h3inleiding{
+  margin-left: 10px;
+}
+h1{
+  margin-left: 20px;
+}
+ul a{
+  color: darkblue;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  height: 20px;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid white;
+  background-color: #CCFF99;
+  margin: 5px;
+}
+li:hover{
+  background-color: #FFFFCC;
+  border-style: solid;
+  border-color: black;
+}
+div{
+  background-color: #FFFFCC;
+  padding: 5px;
+}
+img.foto{
+  width: 300px;
+  padding: 6px 6px 0px 6px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#tekst{
+  padding-bottom:20px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+footer{
+  background-color: #009966;
+  padding: 5px 5px 5px 10px;
+  height: 25px;
+}
+#tabel{
+  background-color: #FFFFCC;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+table{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin-left: 25%;
+}
+thead{
+  background-color: #CCCC99;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+tbody{
+  background-color: #8FBC8F;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+th{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  align-content: left;
+}
+td{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  padding: 6px;
+  margin: 6px;
+  width: 400px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #009966;
+  border-radius: 6px;
+
+}
+input[type="text"], input[type="email"], textarea{
+    background-color: #FFFFCC;
+}
+form{
+  margin-left: 25%;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+#h2contact{
+  margin-left: 25%;
+  margin-right:25%;
+}
+#h2tabel{
+  margin-left: 25%;
+}
+button{
+  background-color: #CCCC99;
+  font-weight: bold;
+}
+button:active{
+  background-color: #8FBC8F;
+}
+textarea{
+  height: 150px;
+  width: 400px;
+  resize: none;
+}

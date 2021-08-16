@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=nl>
+<head>
+<title> De Heidelibelle</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+</head>
+<body>
+<header>
+  <h1>De heidelibelle</h1>
+  <ul>
+    <li> <a href="../index.html">Home</a> </li>
+    <li> <a href="mijncv.html">Mijn CV</a> </li>
+    <li> <a href="contact.html">Contact</a> </li>
+  </ul>
+  </header>
+<div>
+<h2 id="h2contact">Contactformulier</h2>
+<form id="contactform" method="post"> <!--Normaal gesproken zou er nog een action attribuut moeten worden toegevoegd. Dat hoeft niet voor deze opdracht-->
+<label for="voornaam"> voornaam </label>
+<input type="text" id="voornaam" name="voornaam">
+<label for="achternaam"> achternaam </label>
+<input type="text" id="achternaam" name="achternaam">
+<label for="mailadres"> e-mailadres </label>
+<input type="email" id="mailadres" name="mailadres">
+<label for="bericht"> uw bericht (max 400 tekens) </label>
+<textarea id="bericht" name="bericht" maxlength="400"></textarea>
+<button>Verzend</button>
+</form>
+</div>
+<footer> &copy; Sanne (2021) </footer>
+</body>
+</html>
